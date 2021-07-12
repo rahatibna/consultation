@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: rgba(1, 9, 20, 0.068);
+}
+
+.header {
+  margin: 0 auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.one{
+  margin:40px 35%  ;
+}
+.content-table{
+  margin:25px 5% 0 5%;
+  min-width: 90%;
+  border-radius:5px 5px 0 0;
+  overflow: hidden;
+  box-shadow : 0 0 20px rgba(0,0,0,0.15)
+  
+}
+.content-table thead tr{
+  font-size: 1.2em;
+
+  background-color:#009879;
+  color:#ffffff;
+  text-align:left;
+  font-weight: bold;
+
+}
+.content-table td , th {
+  padding: 12px 15px;
+}
+.content-table tbody tr{
+  font-size: .9em;
+
+  border-bottom: 1px solid #dddddd
+}
+tr:nth-child(2n+1){
+  background-color: f3f3f3;
+}
